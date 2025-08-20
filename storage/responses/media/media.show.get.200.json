@@ -1,0 +1,79 @@
+{
+    "id": 1,
+    "title": "saepe ipsam",
+    "description": "Mollitia non in voluptas. Corporis dolores aut animi. Et consequuntur qui at illo pariatur ut tempora.",
+    "short_description": "Ut quas necessitatibus eos quis.",
+    "meta": null,
+    "price": 0.0,
+    "length": "38",
+    "language": "English",
+    "artists": "Brooke Runte,Alexzander O'Hara",
+    "release_date": "1979-12-10",
+    "maturity_rating": "18",
+    "status": "published",
+    "medialibrary": {
+        "images": [
+            {
+                "default": "http://localhost/storage/1/500.png",
+                "thumb": "http://localhost/storage/1/conversions/500-thumb.jpg",
+                "small": "http://localhost/storage/1/conversions/500-small.jpg",
+                "medium": "http://localhost/storage/1/conversions/500-medium.jpg",
+                "large": "http://localhost/storage/1/conversions/500-large.jpg"
+            }
+        ]
+    },
+    "category": {
+        "id": 5,
+        "slug": "tv",
+        "title": "Tv Shows",
+        "meta": null,
+        "sort_order": 1,
+        "mediaurls": [],
+        "parent_id": null
+    },
+    "subcategories": [
+        {
+            "id": 8,
+            "slug": "action",
+            "title": "Action",
+            "meta": null,
+            "sort_order": 1,
+            "mediaurls": [],
+            "parent_id": 5
+        }
+    ],
+    "content": [
+        {
+            "id": 1,
+            "meta": null,
+            "type": "main",
+            "original_source": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+            "source": {
+                "480": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                "720": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                "1080": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                "auto": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4"
+            }
+        },
+        {
+            "id": 2,
+            "meta": {
+                "title": "Trailer 1"
+            },
+            "type": "clip",
+            "original_source": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+            "source": {
+                "480": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                "720": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                "1080": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                "auto": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4"
+            }
+        }
+    ],
+    "favourite_count": 0,
+    "is_favourite": false,
+    "episode_count": 9,
+    "season_count": 3,
+    "ratings": 5,
+    "ratings_count": 1
+}

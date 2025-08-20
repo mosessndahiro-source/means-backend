@@ -1,0 +1,562 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "episode_number": 1,
+            "season_number": 1,
+            "media": {
+                "id": 11,
+                "title": "nobis id",
+                "description": "Quos iusto aspernatur accusamus excepturi ea. Et laborum et distinctio aperiam illo unde suscipit. Quis dolorem illo accusantium ut facere qui. Nam ut quia eligendi.",
+                "short_description": "Rerum vel voluptas ut et dolorem dolorum.",
+                "meta": null,
+                "length": "66",
+                "language": "English",
+                "artists": "Guillermo Lebsack,Grace Sipes",
+                "release_date": "1941-02-26",
+                "maturity_rating": "7",
+                "status": "published",
+                "medialibrary": {
+                    "images": [
+                        {
+                            "default": "https://clipx.vtlabs.dev/storage/3/500.png",
+                            "thumb": "https://clipx.vtlabs.dev/storage/3/conversions/500-thumb.jpg",
+                            "small": "https://clipx.vtlabs.dev/storage/3/conversions/500-small.jpg",
+                            "medium": "https://clipx.vtlabs.dev/storage/3/conversions/500-medium.jpg",
+                            "large": "https://clipx.vtlabs.dev/storage/3/conversions/500-large.jpg"
+                        }
+                    ]
+                },
+                "category": null,
+                "subcategories": [],
+                "content": [
+                    {
+                        "id": 5,
+                        "meta": null,
+                        "type": "main",
+                        "original_source": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "source": [
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4"
+                        ]
+                    },
+                    {
+                        "id": 6,
+                        "meta": {
+                            "title": "Trailer 1"
+                        },
+                        "type": "clip",
+                        "original_source": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "source": [
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4"
+                        ]
+                    }
+                ],
+                "favourite_count": 0,
+                "is_favourite": false,
+                "episode_count": 0,
+                "season_count": 0
+            },
+            "parent_media_id": 2
+        },
+        {
+            "id": 2,
+            "episode_number": 2,
+            "season_number": 1,
+            "media": {
+                "id": 12,
+                "title": "omnis quia",
+                "description": "Dolor nihil quos non rerum. Magni provident id culpa enim. Nulla aut laborum doloremque illo et debitis eius. Animi consequatur dolores qui dolore sunt.",
+                "short_description": "Voluptatem debitis quis vel sapiente.",
+                "meta": null,
+                "length": "42",
+                "language": "English",
+                "artists": "Linda Bergnaum,Dale Donnelly",
+                "release_date": "1985-01-04",
+                "maturity_rating": "4",
+                "status": "published",
+                "medialibrary": {
+                    "images": [
+                        {
+                            "default": "https://clipx.vtlabs.dev/storage/4/500.png",
+                            "thumb": "https://clipx.vtlabs.dev/storage/4/conversions/500-thumb.jpg",
+                            "small": "https://clipx.vtlabs.dev/storage/4/conversions/500-small.jpg",
+                            "medium": "https://clipx.vtlabs.dev/storage/4/conversions/500-medium.jpg",
+                            "large": "https://clipx.vtlabs.dev/storage/4/conversions/500-large.jpg"
+                        }
+                    ]
+                },
+                "category": null,
+                "subcategories": [],
+                "content": [
+                    {
+                        "id": 7,
+                        "meta": null,
+                        "type": "main",
+                        "original_source": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "source": [
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4"
+                        ]
+                    },
+                    {
+                        "id": 8,
+                        "meta": {
+                            "title": "Trailer 1"
+                        },
+                        "type": "clip",
+                        "original_source": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "source": [
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4"
+                        ]
+                    }
+                ],
+                "favourite_count": 0,
+                "is_favourite": false,
+                "episode_count": 0,
+                "season_count": 0
+            },
+            "parent_media_id": 2
+        },
+        {
+            "id": 3,
+            "episode_number": 3,
+            "season_number": 1,
+            "media": {
+                "id": 13,
+                "title": "iusto sint",
+                "description": "Quos ea et tempore unde odit cum qui eos. Perspiciatis itaque ea vero error omnis expedita officia. Odit earum quam quo id adipisci sequi. Eligendi ducimus omnis eligendi consequatur id assumenda.",
+                "short_description": "Et aliquid ea totam reiciendis.",
+                "meta": null,
+                "length": "28",
+                "language": "English",
+                "artists": "Aracely Monahan,Annette Schaden",
+                "release_date": "1944-01-14",
+                "maturity_rating": "13",
+                "status": "published",
+                "medialibrary": {
+                    "images": [
+                        {
+                            "default": "https://clipx.vtlabs.dev/storage/5/500.png",
+                            "thumb": "https://clipx.vtlabs.dev/storage/5/conversions/500-thumb.jpg",
+                            "small": "https://clipx.vtlabs.dev/storage/5/conversions/500-small.jpg",
+                            "medium": "https://clipx.vtlabs.dev/storage/5/conversions/500-medium.jpg",
+                            "large": "https://clipx.vtlabs.dev/storage/5/conversions/500-large.jpg"
+                        }
+                    ]
+                },
+                "category": null,
+                "subcategories": [],
+                "content": [
+                    {
+                        "id": 9,
+                        "meta": null,
+                        "type": "main",
+                        "original_source": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "source": [
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4"
+                        ]
+                    },
+                    {
+                        "id": 10,
+                        "meta": {
+                            "title": "Trailer 1"
+                        },
+                        "type": "clip",
+                        "original_source": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "source": [
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4"
+                        ]
+                    }
+                ],
+                "favourite_count": 0,
+                "is_favourite": false,
+                "episode_count": 0,
+                "season_count": 0
+            },
+            "parent_media_id": 2
+        },
+        {
+            "id": 4,
+            "episode_number": 1,
+            "season_number": 2,
+            "media": {
+                "id": 14,
+                "title": "soluta fuga",
+                "description": "Commodi ad amet id excepturi enim est. Sed eaque esse quia ab blanditiis veniam. Voluptatibus necessitatibus quaerat debitis totam. Doloribus voluptas quod est aut.",
+                "short_description": "Quibusdam maiores et nihil adipisci earum harum.",
+                "meta": null,
+                "length": "50",
+                "language": "English",
+                "artists": "Jolie Wiegand,Walton Borer",
+                "release_date": "1948-03-11",
+                "maturity_rating": "4",
+                "status": "published",
+                "medialibrary": {
+                    "images": [
+                        {
+                            "default": "https://clipx.vtlabs.dev/storage/6/500.png",
+                            "thumb": "https://clipx.vtlabs.dev/storage/6/conversions/500-thumb.jpg",
+                            "small": "https://clipx.vtlabs.dev/storage/6/conversions/500-small.jpg",
+                            "medium": "https://clipx.vtlabs.dev/storage/6/conversions/500-medium.jpg",
+                            "large": "https://clipx.vtlabs.dev/storage/6/conversions/500-large.jpg"
+                        }
+                    ]
+                },
+                "category": null,
+                "subcategories": [],
+                "content": [
+                    {
+                        "id": 11,
+                        "meta": null,
+                        "type": "main",
+                        "original_source": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "source": [
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4"
+                        ]
+                    },
+                    {
+                        "id": 12,
+                        "meta": {
+                            "title": "Trailer 1"
+                        },
+                        "type": "clip",
+                        "original_source": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "source": [
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4"
+                        ]
+                    }
+                ],
+                "favourite_count": 0,
+                "is_favourite": false,
+                "episode_count": 0,
+                "season_count": 0
+            },
+            "parent_media_id": 2
+        },
+        {
+            "id": 5,
+            "episode_number": 2,
+            "season_number": 2,
+            "media": {
+                "id": 15,
+                "title": "numquam iusto",
+                "description": "Ut dignissimos laudantium velit laudantium libero vitae eveniet. Quia id ut autem quae repudiandae. Atque ipsa nihil assumenda pariatur voluptatem suscipit quasi.",
+                "short_description": "Est accusamus rerum harum quo hic.",
+                "meta": null,
+                "length": "122",
+                "language": "English",
+                "artists": "Lavina Satterfield,Jordy Ziemann",
+                "release_date": "1941-08-24",
+                "maturity_rating": "13",
+                "status": "published",
+                "medialibrary": {
+                    "images": [
+                        {
+                            "default": "https://clipx.vtlabs.dev/storage/7/500.png",
+                            "thumb": "https://clipx.vtlabs.dev/storage/7/conversions/500-thumb.jpg",
+                            "small": "https://clipx.vtlabs.dev/storage/7/conversions/500-small.jpg",
+                            "medium": "https://clipx.vtlabs.dev/storage/7/conversions/500-medium.jpg",
+                            "large": "https://clipx.vtlabs.dev/storage/7/conversions/500-large.jpg"
+                        }
+                    ]
+                },
+                "category": null,
+                "subcategories": [],
+                "content": [
+                    {
+                        "id": 13,
+                        "meta": null,
+                        "type": "main",
+                        "original_source": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "source": [
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4"
+                        ]
+                    },
+                    {
+                        "id": 14,
+                        "meta": {
+                            "title": "Trailer 1"
+                        },
+                        "type": "clip",
+                        "original_source": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "source": [
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4"
+                        ]
+                    }
+                ],
+                "favourite_count": 0,
+                "is_favourite": false,
+                "episode_count": 0,
+                "season_count": 0
+            },
+            "parent_media_id": 2
+        },
+        {
+            "id": 6,
+            "episode_number": 3,
+            "season_number": 2,
+            "media": {
+                "id": 16,
+                "title": "laborum laborum",
+                "description": "Et vero voluptas quia et cumque. Temporibus quo temporibus libero iste expedita ut. Earum illum et provident at dolor. Dolorem amet assumenda enim iusto sit necessitatibus.",
+                "short_description": "A voluptatem vel minima error.",
+                "meta": null,
+                "length": "157",
+                "language": "English",
+                "artists": "Kaelyn Kohler,Kurtis Littel",
+                "release_date": "1935-07-22",
+                "maturity_rating": "16",
+                "status": "published",
+                "medialibrary": {
+                    "images": [
+                        {
+                            "default": "https://clipx.vtlabs.dev/storage/8/500.png",
+                            "thumb": "https://clipx.vtlabs.dev/storage/8/conversions/500-thumb.jpg",
+                            "small": "https://clipx.vtlabs.dev/storage/8/conversions/500-small.jpg",
+                            "medium": "https://clipx.vtlabs.dev/storage/8/conversions/500-medium.jpg",
+                            "large": "https://clipx.vtlabs.dev/storage/8/conversions/500-large.jpg"
+                        }
+                    ]
+                },
+                "category": null,
+                "subcategories": [],
+                "content": [
+                    {
+                        "id": 15,
+                        "meta": null,
+                        "type": "main",
+                        "original_source": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "source": [
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4"
+                        ]
+                    },
+                    {
+                        "id": 16,
+                        "meta": {
+                            "title": "Trailer 1"
+                        },
+                        "type": "clip",
+                        "original_source": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "source": [
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4"
+                        ]
+                    }
+                ],
+                "favourite_count": 0,
+                "is_favourite": false,
+                "episode_count": 0,
+                "season_count": 0
+            },
+            "parent_media_id": 2
+        },
+        {
+            "id": 7,
+            "episode_number": 1,
+            "season_number": 3,
+            "media": {
+                "id": 17,
+                "title": "accusantium beatae",
+                "description": "In et veniam autem adipisci cupiditate. Atque delectus quidem quam et sapiente velit. Commodi numquam eum dolor illum qui ipsum. Autem doloremque qui maiores.",
+                "short_description": "Sint illum corrupti quas ullam.",
+                "meta": null,
+                "length": "133",
+                "language": "English",
+                "artists": "Alexander Harris,Ofelia Stamm",
+                "release_date": "2000-06-28",
+                "maturity_rating": "7",
+                "status": "published",
+                "medialibrary": {
+                    "images": [
+                        {
+                            "default": "https://clipx.vtlabs.dev/storage/9/500.png",
+                            "thumb": "https://clipx.vtlabs.dev/storage/9/conversions/500-thumb.jpg",
+                            "small": "https://clipx.vtlabs.dev/storage/9/conversions/500-small.jpg",
+                            "medium": "https://clipx.vtlabs.dev/storage/9/conversions/500-medium.jpg",
+                            "large": "https://clipx.vtlabs.dev/storage/9/conversions/500-large.jpg"
+                        }
+                    ]
+                },
+                "category": null,
+                "subcategories": [],
+                "content": [
+                    {
+                        "id": 17,
+                        "meta": null,
+                        "type": "main",
+                        "original_source": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "source": [
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4"
+                        ]
+                    },
+                    {
+                        "id": 18,
+                        "meta": {
+                            "title": "Trailer 1"
+                        },
+                        "type": "clip",
+                        "original_source": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "source": [
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4"
+                        ]
+                    }
+                ],
+                "favourite_count": 0,
+                "is_favourite": false,
+                "episode_count": 0,
+                "season_count": 0
+            },
+            "parent_media_id": 2
+        },
+        {
+            "id": 8,
+            "episode_number": 2,
+            "season_number": 3,
+            "media": {
+                "id": 18,
+                "title": "fuga eaque",
+                "description": "Distinctio porro voluptatibus quae sint ut optio. Et corrupti eum qui. Quis voluptatum vel deserunt delectus sint.",
+                "short_description": "Id enim non hic magni dignissimos voluptatum.",
+                "meta": null,
+                "length": "184",
+                "language": "English",
+                "artists": "Aubrey Hodkiewicz,Jacklyn Armstrong",
+                "release_date": "1930-08-12",
+                "maturity_rating": "13",
+                "status": "published",
+                "medialibrary": {
+                    "images": [
+                        {
+                            "default": "https://clipx.vtlabs.dev/storage/10/500.png",
+                            "thumb": "https://clipx.vtlabs.dev/storage/10/conversions/500-thumb.jpg",
+                            "small": "https://clipx.vtlabs.dev/storage/10/conversions/500-small.jpg",
+                            "medium": "https://clipx.vtlabs.dev/storage/10/conversions/500-medium.jpg",
+                            "large": "https://clipx.vtlabs.dev/storage/10/conversions/500-large.jpg"
+                        }
+                    ]
+                },
+                "category": null,
+                "subcategories": [],
+                "content": [
+                    {
+                        "id": 19,
+                        "meta": null,
+                        "type": "main",
+                        "original_source": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "source": [
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4"
+                        ]
+                    },
+                    {
+                        "id": 20,
+                        "meta": {
+                            "title": "Trailer 1"
+                        },
+                        "type": "clip",
+                        "original_source": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "source": [
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4"
+                        ]
+                    }
+                ],
+                "favourite_count": 0,
+                "is_favourite": false,
+                "episode_count": 0,
+                "season_count": 0
+            },
+            "parent_media_id": 2
+        },
+        {
+            "id": 9,
+            "episode_number": 3,
+            "season_number": 3,
+            "media": {
+                "id": 19,
+                "title": "ipsa accusamus",
+                "description": "Soluta voluptatem dolor voluptas voluptate tempore. Illo nihil quis rerum quasi nesciunt odit vitae similique. Vel cumque facere voluptas natus.",
+                "short_description": "Beatae sed magnam odit quo aliquam ut omnis.",
+                "meta": null,
+                "length": "103",
+                "language": "English",
+                "artists": "Danika Haag,Sherman Parisian",
+                "release_date": "1994-07-12",
+                "maturity_rating": "4",
+                "status": "published",
+                "medialibrary": {
+                    "images": [
+                        {
+                            "default": "https://clipx.vtlabs.dev/storage/11/500.png",
+                            "thumb": "https://clipx.vtlabs.dev/storage/11/conversions/500-thumb.jpg",
+                            "small": "https://clipx.vtlabs.dev/storage/11/conversions/500-small.jpg",
+                            "medium": "https://clipx.vtlabs.dev/storage/11/conversions/500-medium.jpg",
+                            "large": "https://clipx.vtlabs.dev/storage/11/conversions/500-large.jpg"
+                        }
+                    ]
+                },
+                "category": null,
+                "subcategories": [],
+                "content": [
+                    {
+                        "id": 21,
+                        "meta": null,
+                        "type": "main",
+                        "original_source": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "source": [
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4"
+                        ]
+                    },
+                    {
+                        "id": 22,
+                        "meta": {
+                            "title": "Trailer 1"
+                        },
+                        "type": "clip",
+                        "original_source": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "source": [
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4"
+                        ]
+                    }
+                ],
+                "favourite_count": 0,
+                "is_favourite": false,
+                "episode_count": 0,
+                "season_count": 0
+            },
+            "parent_media_id": 2
+        }
+    ]
+}

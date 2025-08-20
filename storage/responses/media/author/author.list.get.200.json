@@ -1,0 +1,32 @@
+{
+   "data": [
+      {
+         "id": 1,
+         "title": "non beatae",
+         "short_description": "Eum quibusdam quis est eum dolorem.",
+         "description": "Sint id sed similique ut itaque dolor. Et ratione praesentium natus earum quas ea deleniti alias. Ab velit explicabo ea dolorem aut eum quia.",
+         "meta": null,
+         "scope": "author",
+         "media_count": 5,
+         "favourite_count": 0,
+         "is_favourite": null,
+         "ratings": 0,
+         "ratings_count": 0
+      }
+   ],
+   "links": {
+      "first": "http://localhost/clipx/public/api/media?page=1",
+      "last": "http://localhost/clipx/public/api/media?page=5",
+      "prev": null,
+      "next": "http://localhost/clipx/public/api/media?page=2"
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 5,
+      "path": "http://localhost/clipx/public/api/media",
+      "per_page": 15,
+      "to": 15,
+      "total": 64
+   }
+}

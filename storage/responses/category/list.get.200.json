@@ -1,0 +1,52 @@
+{
+    "data": [
+        {
+            "id": 2,
+            "slug": "comedy",
+            "title": "Comedy",
+            "meta": {
+                "color": "#a46b9d"
+            },
+            "sort_order": 1,
+            "mediaurls": [],
+            "parent_id": 1
+        },
+        {
+            "id": 3,
+            "slug": "drama",
+            "title": "Drama",
+            "meta": {
+                "color": "#bf1f57"
+            },
+            "sort_order": 1,
+            "mediaurls": [],
+            "parent_id": 1
+        },
+        {
+            "id": 4,
+            "slug": "action",
+            "title": "Action",
+            "meta": {
+                "color": "#5034e5"
+            },
+            "sort_order": 1,
+            "mediaurls": [],
+            "parent_id": 1
+        }
+    ],
+    "links": {
+        "first": "http://localhost/clipx/public/api/categories?page=1",
+        "last": "http://localhost/clipx/public/api/categories?page=1",
+        "prev": null,
+        "next": null
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 1,
+        "path": "http://localhost/clipx/public/api/categories",
+        "per_page": 15,
+        "to": 3,
+        "total": 3
+    }
+}

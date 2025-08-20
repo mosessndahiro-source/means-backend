@@ -1,0 +1,26 @@
+{
+    "average_rating": 3,
+    "total_ratings": 5,
+    "summary": [
+        {
+            "total": 1,
+            "rounded_rating": 5
+        },
+        {
+            "total": 1,
+            "rounded_rating": 4
+        },
+        {
+            "total": 1,
+            "rounded_rating": 3
+        },
+        {
+            "total": 1,
+            "rounded_rating": 2
+        },
+        {
+            "total": 1,
+            "rounded_rating": 1
+        }
+    ]
+}

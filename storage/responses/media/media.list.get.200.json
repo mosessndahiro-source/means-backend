@@ -1,0 +1,340 @@
+{
+    "data": [
+        {
+            "id": 2,
+            "title": "asperiores illo",
+            "description": "Beatae eveniet incidunt qui. Ut architecto saepe incidunt deleniti. Vel perferendis modi fugiat voluptas reprehenderit ut. Laborum itaque temporibus explicabo sed sint esse nihil.",
+            "short_description": "Eaque totam quis dolores corrupti eos quisquam.",
+            "meta": null,
+            "price": 0.0,
+            "length": "130",
+            "language": "English",
+            "artists": "Aidan Kovacek,Marge Ortiz",
+            "release_date": "2005-09-14",
+            "maturity_rating": "4",
+            "status": "published",
+            "medialibrary": {
+                "images": [
+                    {
+                        "default": "http://localhost/storage/2/500.png",
+                        "thumb": "http://localhost/storage/2/conversions/500-thumb.jpg",
+                        "small": "http://localhost/storage/2/conversions/500-small.jpg",
+                        "medium": "http://localhost/storage/2/conversions/500-medium.jpg",
+                        "large": "http://localhost/storage/2/conversions/500-large.jpg"
+                    }
+                ]
+            },
+            "category": {
+                "id": 5,
+                "slug": "tv",
+                "title": "Tv Shows",
+                "meta": null,
+                "sort_order": 1,
+                "mediaurls": [],
+                "parent_id": null
+            },
+            "subcategories": [
+                {
+                    "id": 6,
+                    "slug": "comedy",
+                    "title": "Comedy",
+                    "meta": {
+                        "color": "#9e93de"
+                    },
+                    "sort_order": 1,
+                    "mediaurls": [],
+                    "parent_id": 5
+                }
+            ],
+            "content": [
+                {
+                    "id": 3,
+                    "meta": null,
+                    "type": "main",
+                    "original_source": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                    "source": {
+                        "480": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "720": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "1080": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "auto": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4"
+                    }
+                },
+                {
+                    "id": 4,
+                    "meta": {
+                        "title": "Trailer 1"
+                    },
+                    "type": "clip",
+                    "original_source": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                    "source": {
+                        "480": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "720": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "1080": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "auto": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4"
+                    }
+                }
+            ],
+            "favourite_count": 0,
+            "is_favourite": false,
+            "episode_count": 9,
+            "season_count": 3,
+            "ratings": 5,
+            "ratings_count": 1
+        },
+        {
+            "id": 5,
+            "title": "voluptatem voluptas",
+            "description": "Qui ipsam rerum exercitationem officiis. Dolorum consectetur nesciunt facere officia fugit dolores autem.",
+            "short_description": "Minima et et ullam minus saepe.",
+            "meta": null,
+            "length": "174",
+            "language": "English",
+            "artists": "Josh Block,Reva Abbott",
+            "release_date": "1975-03-11",
+            "maturity_rating": "4",
+            "status": "published",
+            "medialibrary": {
+                "images": [
+                    {
+                        "default": "http://localhost/storage/5/500.png",
+                        "thumb": "http://localhost/storage/5/conversions/500-thumb.jpg",
+                        "small": "http://localhost/storage/5/conversions/500-small.jpg",
+                        "medium": "http://localhost/storage/5/conversions/500-medium.jpg",
+                        "large": "http://localhost/storage/5/conversions/500-large.jpg"
+                    }
+                ]
+            },
+            "category": {
+                "id": 5,
+                "slug": "tv",
+                "title": "Tv Shows",
+                "meta": null,
+                "sort_order": 1,
+                "mediaurls": [],
+                "parent_id": null
+            },
+            "subcategories": [
+                {
+                    "id": 6,
+                    "slug": "comedy",
+                    "title": "Comedy",
+                    "meta": {
+                        "color": "#9e93de"
+                    },
+                    "sort_order": 1,
+                    "mediaurls": [],
+                    "parent_id": 5
+                }
+            ],
+            "content": [
+                {
+                    "id": 9,
+                    "meta": null,
+                    "type": "main",
+                    "original_source": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                    "source": {
+                        "480": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "720": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "1080": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "auto": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4"
+                    }
+                },
+                {
+                    "id": 10,
+                    "meta": {
+                        "title": "Trailer 1"
+                    },
+                    "type": "clip",
+                    "original_source": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                    "source": {
+                        "480": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "720": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "1080": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "auto": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4"
+                    }
+                }
+            ],
+            "favourite_count": 0,
+            "is_favourite": false,
+            "episode_count": 9,
+            "season_count": 3,
+            "ratings": 5,
+            "ratings_count": 1
+        },
+        {
+            "id": 6,
+            "title": "ut sunt",
+            "description": "Eligendi odio quo quia quisquam vel. Officia numquam recusandae reiciendis quae dicta quaerat. Ad reiciendis quia nesciunt ut adipisci. Et voluptatem culpa sapiente perspiciatis animi aut.",
+            "short_description": "Tempora est aut quos dignissimos quisquam sunt.",
+            "meta": null,
+            "length": "166",
+            "language": "English",
+            "artists": "Laverne Kuvalis,Etha Hayes",
+            "release_date": "1957-02-20",
+            "maturity_rating": "13",
+            "status": "published",
+            "medialibrary": {
+                "images": [
+                    {
+                        "default": "http://localhost/storage/6/500.png",
+                        "thumb": "http://localhost/storage/6/conversions/500-thumb.jpg",
+                        "small": "http://localhost/storage/6/conversions/500-small.jpg",
+                        "medium": "http://localhost/storage/6/conversions/500-medium.jpg",
+                        "large": "http://localhost/storage/6/conversions/500-large.jpg"
+                    }
+                ]
+            },
+            "category": {
+                "id": 5,
+                "slug": "tv",
+                "title": "Tv Shows",
+                "meta": null,
+                "sort_order": 1,
+                "mediaurls": [],
+                "parent_id": null
+            },
+            "subcategories": [
+                {
+                    "id": 6,
+                    "slug": "comedy",
+                    "title": "Comedy",
+                    "meta": {
+                        "color": "#9e93de"
+                    },
+                    "sort_order": 1,
+                    "mediaurls": [],
+                    "parent_id": 5
+                }
+            ],
+            "content": [
+                {
+                    "id": 11,
+                    "meta": null,
+                    "type": "main",
+                    "original_source": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                    "source": {
+                        "480": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "720": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "1080": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "auto": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4"
+                    }
+                },
+                {
+                    "id": 12,
+                    "meta": {
+                        "title": "Trailer 1"
+                    },
+                    "type": "clip",
+                    "original_source": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                    "source": {
+                        "480": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "720": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "1080": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "auto": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4"
+                    }
+                }
+            ],
+            "favourite_count": 0,
+            "is_favourite": false,
+            "episode_count": 9,
+            "season_count": 3,
+            "ratings": 5,
+            "ratings_count": 1
+        },
+        {
+            "id": 8,
+            "title": "nisi neque",
+            "description": "Dolorem quis voluptas est. Eos qui quos sint explicabo. Debitis consequatur omnis accusamus et voluptatem. Ea quod laudantium odio explicabo repellat.",
+            "short_description": "Fugit alias qui doloribus minima est.",
+            "meta": null,
+            "length": "30",
+            "language": "English",
+            "artists": "Verlie Kuphal,Magdalena Bashirian",
+            "release_date": "1965-09-20",
+            "maturity_rating": "16",
+            "status": "published",
+            "medialibrary": {
+                "images": [
+                    {
+                        "default": "http://localhost/storage/8/500.png",
+                        "thumb": "http://localhost/storage/8/conversions/500-thumb.jpg",
+                        "small": "http://localhost/storage/8/conversions/500-small.jpg",
+                        "medium": "http://localhost/storage/8/conversions/500-medium.jpg",
+                        "large": "http://localhost/storage/8/conversions/500-large.jpg"
+                    }
+                ]
+            },
+            "category": {
+                "id": 5,
+                "slug": "tv",
+                "title": "Tv Shows",
+                "meta": null,
+                "sort_order": 1,
+                "mediaurls": [],
+                "parent_id": null
+            },
+            "subcategories": [
+                {
+                    "id": 6,
+                    "slug": "comedy",
+                    "title": "Comedy",
+                    "meta": {
+                        "color": "#9e93de"
+                    },
+                    "sort_order": 1,
+                    "mediaurls": [],
+                    "parent_id": 5
+                }
+            ],
+            "content": [
+                {
+                    "id": 15,
+                    "meta": null,
+                    "type": "main",
+                    "original_source": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                    "source": {
+                        "480": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "720": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "1080": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "auto": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4"
+                    }
+                },
+                {
+                    "id": 16,
+                    "meta": {
+                        "title": "Trailer 1"
+                    },
+                    "type": "clip",
+                    "original_source": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                    "source": {
+                        "480": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "720": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "1080": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "auto": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4"
+                    }
+                }
+            ],
+            "favourite_count": 0,
+            "is_favourite": false,
+            "episode_count": 9,
+            "season_count": 3,
+            "ratings": 5,
+            "ratings_count": 1
+        }
+    ],
+    "links": {
+        "first": "http://localhost/clipx/public/api/media?page=1",
+        "last": "http://localhost/clipx/public/api/media?page=1",
+        "prev": null,
+        "next": null
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 1,
+        "path": "http://localhost/clipx/public/api/media",
+        "per_page": 15,
+        "to": 4,
+        "total": 4
+    }
+}

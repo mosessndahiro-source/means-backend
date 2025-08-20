@@ -1,0 +1,125 @@
+{
+    "data": [
+        {
+            "id": 20,
+            "rating": 10,
+            "review": "test review",
+            "user": {
+                "id": 20,
+                "name": "Jagrit",
+                "email": "jagritjkh@gmail.com",
+                "mobile_number": "+918447603727",
+                "mobile_verified": 1,
+                "active": 1,
+                "language": "en",
+                "notification": null,
+                "meta": null,
+                "mediaurls": [],
+                "balance": null,
+                "wallet": {
+                    "user_id": 20
+                }
+            },
+            "media": {
+                "id": 48,
+                "title": "et necessitatibus",
+                "description": "Et dicta et eius velit ad expedita sit. Sed laboriosam cupiditate dolores alias nihil enim tempora. Nisi vel ipsum vel tempore consectetur quis. Ad sunt repellendus exercitationem ut.",
+                "short_description": "Magnam ea quidem dolore perspiciatis.",
+                "meta": null,
+                "price": 0.0,
+                "length": "39",
+                "language": "English",
+                "artists": "Tara Schaden,Lola Pagac",
+                "release_date": "1995-11-23",
+                "maturity_rating": "13",
+                "status": "published",
+                "medialibrary": {
+                    "images": [
+                        {
+                            "default": "https://clipx.vtlabs.dev/storage/48/banner1.png",
+                            "thumb": "https://clipx.vtlabs.dev/storage/48/conversions/banner1-thumb.jpg",
+                            "small": "https://clipx.vtlabs.dev/storage/48/conversions/banner1-small.jpg",
+                            "medium": "https://clipx.vtlabs.dev/storage/48/conversions/banner1-medium.jpg",
+                            "large": "https://clipx.vtlabs.dev/storage/48/conversions/banner1-large.jpg"
+                        }
+                    ]
+                },
+                "category": {
+                    "id": 5,
+                    "slug": "tv",
+                    "title": "Tv Shows",
+                    "title_translations": {
+                        "en": "Tv Shows"
+                    },
+                    "meta": null,
+                    "sort_order": 1,
+                    "mediaurls": [],
+                    "parent_id": null
+                },
+                "subcategories": [
+                    {
+                        "id": 7,
+                        "slug": "drama",
+                        "title": "Drama",
+                        "title_translations": {
+                            "en": "Drama"
+                        },
+                        "meta": {
+                            "color": "#5f5026"
+                        },
+                        "sort_order": 2,
+                        "mediaurls": [],
+                        "parent_id": 5
+                    }
+                ],
+                "content": [
+                    {
+                        "id": 95,
+                        "meta": null,
+                        "type": "main",
+                        "original_source": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "source": [
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4"
+                        ]
+                    },
+                    {
+                        "id": 96,
+                        "meta": {
+                            "title": "Trailer 1"
+                        },
+                        "type": "clip",
+                        "original_source": "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                        "source": [
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4",
+                            "https://nv.vi-serve.com/vis-media/472/931/bwrPLnIBNurCcTjNE1sP_720p.MP4"
+                        ]
+                    }
+                ],
+                "favourite_count": 1,
+                "is_favourite": true,
+                "episode_count": 9,
+                "season_count": 3,
+                "ratings": 10,
+                "ratings_count": 1
+            }
+        }
+    ],
+    "links": {
+        "first": "https://clipx.vtlabs.dev/api/media/ratings/48?page=1",
+        "last": "https://clipx.vtlabs.dev/api/media/ratings/48?page=1",
+        "prev": null,
+        "next": null
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 1,
+        "path": "https://clipx.vtlabs.dev/api/media/ratings/48",
+        "per_page": 15,
+        "to": 1,
+        "total": 1
+    }
+}
