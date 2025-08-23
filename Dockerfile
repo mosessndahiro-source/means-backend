@@ -9,25 +9,24 @@ RUN apt-get update && apt-get install -y \
 # Enable Apache mod_rewrite for Laravel
 RUN a2enmod rewrite
 
-# Install Composer
+# Install Composer (still useful if you ever want to run it manually inside the container)
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
 # Set working directory
 WORKDIR /var/www/html
 
-# Copy app files
+# Copy app files including vendor (make sure .dockerignore is not excluding vendor/)
 COPY . .
 
-# Install dependencies for production
-RUN composer install --no-dev --optimize-autoloader
+# ⚠️ Skip composer install since vendor already exists
+# RUN composer install --no-dev --optimize-autoloader
 
-# Set permissions
+# Set permissions for Laravel
 RUN chown -R www-data:www-data /var/www/html \
-    && chmod -R 755 /var/www/html/storage /var/www/html/bootstrap/cache
+    && chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache
 
 # Expose port 80
 EXPOSE 80
 
 # Start Apache
 CMD ["apache2-foreground"]
-
