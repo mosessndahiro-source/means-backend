@@ -1,29 +1,32 @@
-# Ignore Dockerfile itself
+# Docker files
 Dockerfile
 .dockerignore
 
-# Ignore Git
+# Git
 .git
 .gitignore
 
-# Ignore system files
+# IDE / OS junk
 *.log
-*.env.local
 *.DS_Store
 *.idea
 *.vscode
+*.env.local
 
-# Ignore cache / temp
+# Frontend stuff (if present in same repo)
 node_modules
 npm-debug.log
 yarn-error.log
 
-# Ignore Laravel caches
+# Laravel caches
 bootstrap/cache/*.php
 storage/*.key
 storage/framework/cache/*
 storage/framework/sessions/*
 storage/framework/views/*
 
-# ⚠️ DO NOT ignore vendor since we need it inside container
+# ⚠️ DO NOT ignore vendor because you need it
 # vendor/
+
+# ⚠️ DO NOT ignore .env if you're baking it into the image
+# (but recommended to inject envs instead in production)
