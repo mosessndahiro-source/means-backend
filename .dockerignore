@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ignore Dockerfile itself
 Dockerfile
 .dockerignore
@@ -14,16 +15,46 @@ Dockerfile
 *.vscode
 
 # Ignore cache / temp
+=======
+# Docker files
+Dockerfile
+.dockerignore
+
+# Git
+.git
+.gitignore
+
+# IDE / OS junk
+*.log
+*.DS_Store
+*.idea
+*.vscode
+*.env.local
+
+# Frontend stuff (if present in same repo)
+>>>>>>> 62d8c85c9a3b89a7d7fb07a90e02e5c44f3dd12e
 node_modules
 npm-debug.log
 yarn-error.log
 
+<<<<<<< HEAD
 # Ignore Laravel caches
+=======
+# Laravel caches
+>>>>>>> 62d8c85c9a3b89a7d7fb07a90e02e5c44f3dd12e
 bootstrap/cache/*.php
 storage/*.key
 storage/framework/cache/*
 storage/framework/sessions/*
 storage/framework/views/*
 
+<<<<<<< HEAD
 # ⚠️ DO NOT ignore vendor since we need it inside container
 # vendor/
+=======
+# ⚠️ DO NOT ignore vendor because you need it
+# vendor/
+
+# ⚠️ DO NOT ignore .env if you're baking it into the image
+# (but recommended to inject envs instead in production)
+>>>>>>> 62d8c85c9a3b89a7d7fb07a90e02e5c44f3dd12e
