@@ -1,0 +1,29 @@
+# Ignore Dockerfile itself
+Dockerfile
+.dockerignore
+
+# Ignore Git
+.git
+.gitignore
+
+# Ignore system files
+*.log
+*.env.local
+*.DS_Store
+*.idea
+*.vscode
+
+# Ignore cache / temp
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Ignore Laravel caches
+bootstrap/cache/*.php
+storage/*.key
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+
+# ⚠️ DO NOT ignore vendor since we need it inside container
+# vendor/
