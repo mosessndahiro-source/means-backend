@@ -18,4 +18,3 @@ Route::post('/login', [AuthController::class, 'login']);
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-
