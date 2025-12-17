@@ -1,7 +1,7 @@
 # Use PHP 7.4 with Apache (your template requires it)
 FROM php:7.4-apache
 
-# Install system dependencies and ALL possible PHP extensions for old CodeCanyon Laravel templates
+# Install system dependencies and EVERY common PHP extension for old CodeCanyon templates
 RUN apt-get update && apt-get install -y \
     git \
     curl \
@@ -17,8 +17,9 @@ RUN apt-get update && apt-get install -y \
     libxslt-dev \
     libssl-dev \
     libbz2-dev \
+    libexif-dev \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
-    && docker-php-ext-install -j$(nproc) gd pdo_mysql mbstring exif pcntl bcmath zip intl xsl soap bz2
+    && docker-php-ext-install -j$(nproc) gd pdo_mysql mbstring exif pcntl bcmath zip intl xsl soap bz2 dom xml
 
 # Enable Apache mod_rewrite
 RUN a2enmod rewrite
