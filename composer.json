@@ -1,78 +1,10 @@
 {
     "name": "vtlabs/gopool",
     "type": "project",
-    "repositories": [
-        {
-            "url": "https://github.com/ujjwalwahi/telescope.git",
-            "type": "git"
-        },
-        {
-            "url": "https://github.com/ujjwalwahi/rating.git",
-            "type": "git"
-        },
-        {
-            "url": "https://github.com/ujjwalwahi/laravel-favorite.git",
-            "type": "git"
-        },
-        {
-            "url": "https://github.com/ujjwalwahi/plans.git",
-            "type": "git"
-        },
-        {
-            "url": "https://github.com/ujjwalwahi/beanstream-php.git",
-            "type": "git"
-        },
-        {
-            "url": "https://github.com/ujjwalwahi/laravel-dotenv-editor.git",
-            "type": "git"
-        },
-        {
-            "url": "https://gitlab.com/vtlabs/php-packages/laravel-artisan.git",
-            "type": "gitlab"
-        },
-        {
-            "url": "https://gitlab.com/vtlabs/php-packages/laravel-core.git",
-            "type": "gitlab"
-        },
-        {
-            "url": "https://gitlab.com/vtlabs/php-packages/laravel-category.git",
-            "type": "gitlab"
-        },
-        {
-            "url": "https://gitlab.com/vtlabs/php-packages/laravel-banners.git",
-            "type": "gitlab"
-        },
-        {
-            "url": "https://gitlab.com/vtlabs/php-packages/laravel-support.git",
-            "type": "gitlab"
-        },
-        {
-            "url": "https://gitlab.com/vtlabs/php-packages/laravel-faq.git",
-            "type": "gitlab"
-        },
-        {
-            "url": "https://gitlab.com/vtlabs/php-packages/laravel-carpool.git",
-            "type": "gitlab"
-        },
-        {
-            "url": "https://gitlab.com/vtlabs/php-packages/laravel-payments.git",
-            "type": "gitlab"
-        },
-        {
-            "url": "https://gitlab.com/vtlabs/php-packages/laravel-appointments.git",
-            "type": "gitlab"
-        },
-        {
-            "url": "https://gitlab.com/vtlabs/php-packages/laravel-report.git",
-            "type": "gitlab"
-        }
-    ],
     "require": {
         "php": ">=7.4",
         "fideloper/proxy": "^4.0",
-        "laravel/framework": "^6.0",
-        "vtlabs/core": "^1.1",
-        "vtlabs/carpool": "^1.0"
+        "laravel/framework": "^6.0"
     },
     "require-dev": {
         "filp/whoops": "^2.0",
@@ -84,10 +16,7 @@
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
-        "sort-packages": true,
-        "gitlab-oauth": {
-            "gitlab.com": "XRfxX83LqP4zFBYYxmBF"
-        }
+        "sort-packages": true
     },
     "extra": {
         "laravel": {
