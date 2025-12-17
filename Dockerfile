@@ -17,6 +17,7 @@ RUN apt-get update && apt-get install -y \
     libxslt-dev \
     libssl-dev \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
+    && docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd zip
     && docker-php-ext-install -j$(nproc) gd pdo_mysql mbstring exif pcntl bcmath zip intl xsl soap
 
 # Enable Apache mod_rewrite
