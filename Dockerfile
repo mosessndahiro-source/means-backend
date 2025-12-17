@@ -1,7 +1,7 @@
 # Use PHP 7.4 with Apache (your template requires it)
 FROM php:7.4-apache
 
-# Install system dependencies and ALL common PHP extensions for old CodeCanyon Laravel templates
+# Install system dependencies and ALL possible PHP extensions for old CodeCanyon Laravel templates
 RUN apt-get update && apt-get install -y \
     git \
     curl \
