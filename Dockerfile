@@ -1,7 +1,7 @@
 # Use PHP 7.4 with Apache (your template requires it)
 FROM php:7.4-apache
 
-# Install system dependencies and ALL common PHP extensions for Laravel/CodeCanyon templates
+# Install system dependencies and ALL common PHP extensions for old CodeCanyon Laravel templates
 RUN apt-get update && apt-get install -y \
     git \
     curl \
@@ -16,9 +16,9 @@ RUN apt-get update && apt-get install -y \
     libicu-dev \
     libxslt-dev \
     libssl-dev \
+    libbz2-dev \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
-    && docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd zip \
-    && docker-php-ext-install -j$(nproc) gd pdo_mysql mbstring exif pcntl bcmath zip intl xsl soap
+    && docker-php-ext-install -j$(nproc) gd pdo_mysql mbstring exif pcntl bcmath zip intl xsl soap bz2
 
 # Enable Apache mod_rewrite
 RUN a2enmod rewrite
@@ -39,13 +39,13 @@ RUN echo 'memory_limit = 2G' > /usr/local/etc/php/conf.d/memory-limit.ini
 RUN composer install --optimize-autoloader --no-dev --no-interaction --no-progress
 
 # Set permissions
-RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache \
-    && chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache
+RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache && \
+    chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache
 
 # Point Apache to public folder
 ENV APACHE_DOCUMENT_ROOT /var/www/html/public
-RUN sed -ri -e 's!/var/www/html!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/sites-available/*.conf
-RUN sed -ri -e 's!/var/www/!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/apache2.conf /etc/apache2/conf-available/*.conf
+RUN sed -ri -e 's!/var/www/html!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/sites-available/*.conf && \
+    sed -ri -e 's!/var/www/!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/apache2.conf /etc/apache2/conf-available/*.conf
 
 # Start Apache
 CMD ["apache2-foreground"]
