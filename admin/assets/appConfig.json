@@ -1,9 +1,0 @@
-{
-    "appName": "Gopool",
-    "apiBaseUrl": "https://gopool.vtlabs.dev/api/admin",
-    "mapsApiKey": "",
-    "developerName": "Verbose Techlabs LLP",
-    "developerUrl": "http://verbosetechlabs.com/",
-    "defaultCategoryScope": "ecommerce",
-    "defaultBannerScope": "ecommerce"
-}
