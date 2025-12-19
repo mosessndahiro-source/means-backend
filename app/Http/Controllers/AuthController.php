@@ -34,7 +34,14 @@ class AuthController extends Controller
             return response()->json(['message' => 'Invalid login'], 401);
         }
 
-        $user = Auth::user();
-        return response()->json(['user' => $user], 200);
+        return response()->json(['user' => Auth::user()], 200);
+    }
+
+    // ✅ ADD THIS
+    public function checkUser(Request $request)
+    {
+        return response()->json([
+            'exists' => true
+        ], 200);
     }
 }
