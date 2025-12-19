@@ -15,7 +15,7 @@ class Kernel extends HttpKernel
      */
    protected $middleware = [
     \App\Http\Middleware\TrustProxies::class,
-    \Fruitcake\Cors\HandleCors::class,
+    \Fruitcake\Cors\Cors::class,
     \App\Http\Middleware\CheckForMaintenanceMode::class,
     \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,
     \App\Http\Middleware\TrimStrings::class,
@@ -39,7 +39,7 @@ class Kernel extends HttpKernel
         ],
 
         'api' => [
-\Fruitcake\Cors\HandleCors::class,
+\Fruitcake\Cors\Cors::class,
             'throttle:60,1',
             'bindings',
             'localization'
