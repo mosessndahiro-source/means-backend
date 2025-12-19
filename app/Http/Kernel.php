@@ -38,7 +38,7 @@ class Kernel extends HttpKernel
         ],
 
         'api' => [
-            \App\Http\Middleware\Cors::class,  // <-- Also in 'api' group for safety
+   
             'throttle:60,1',
             'bindings',
             'localization'
