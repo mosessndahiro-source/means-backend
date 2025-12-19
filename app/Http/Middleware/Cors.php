@@ -1,27 +1,23 @@
 <?php
 
-namespace App\Http\Middleware;
+return [
 
-use Closure;
+    'paths' => ['api/*'],
 
-class Cors
-{
-    public function handle($request, Closure $next)
-    {
-        // Handle preflight OPTIONS request
-        if ($request->getMethod() === "OPTIONS") {
-            return response('', 200)
-                ->header('Access-Control-Allow-Origin', '*')
-                ->header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS')
-                ->header('Access-Control-Allow-Headers', 'Origin, Content-Type, Accept, Authorization, X-Request-With, X-XSRF-TOKEN');
-        }
+    'allowed_methods' => ['*'],
 
-        $response = $next($request);
+    'allowed_origins' => [
+        'http://localhost:8100',
+    ],
 
-        $response->headers->set('Access-Control-Allow-Origin', '*');
-        $response->headers->set('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
-        $response->headers->set('Access-Control-Allow-Headers', 'Origin, Content-Type, Accept, Authorization, X-Request-With, X-XSRF-TOKEN');
+    'allowed_origins_patterns' => [],
 
-        return $response;
-    }
-}
+    'allowed_headers' => ['*'],
+
+    'exposed_headers' => [],
+
+    'max_age' => 0,
+
+    'supports_credentials' => false,
+
+];
