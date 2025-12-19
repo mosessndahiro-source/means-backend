@@ -29,7 +29,6 @@ class Kernel extends HttpKernel
      */
     protected $middlewareGroups = [
         'web' => [
-protected $middleware = [
     \App\Http\Middleware\Cors::class,
     \App\Http\Middleware\TrustProxies::class,
     \App\Http\Middleware\CheckForMaintenanceMode::class,
