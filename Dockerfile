@@ -33,15 +33,23 @@ WORKDIR /var/www/html
 # Copy source code
 COPY . /var/www/html
 
+# Create required storage directories and set permissions (THIS FIXES THE SESSION ERROR)
+RUN mkdir -p /var/www/html/storage/framework/sessions \
+    && mkdir -p /var/www/html/storage/framework/views \
+    && mkdir -p /var/www/html/storage/framework/cache \
+    && mkdir -p /var/www/html/storage/logs \
+    && chown -R www-data:www-data /var/www/html/storage \
+    && chmod -R 775 /var/www/html/storage
+
 # Increase memory limit for composer
 RUN echo 'memory_limit = 2G' > /usr/local/etc/php/conf.d/memory-limit.ini
 
 # Install dependencies (this creates vendor/autoload.php)
 RUN composer install --optimize-autoloader --no-dev --no-interaction --no-progress
 
-# Set permissions
-RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache && \
-    chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache
+# Set permissions for bootstrap/cache (already covered above, but extra safety)
+RUN chown -R www-data:www-data /var/www/html/bootstrap/cache && \
+    chmod -R 775 /var/www/html/bootstrap/cache
 
 # Point Apache to public folder
 ENV APACHE_DOCUMENT_ROOT /var/www/html/public
