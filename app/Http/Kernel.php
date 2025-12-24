@@ -14,7 +14,7 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $middleware = [
-\App\Http\Middleware\Cors::class,  // <-- MUST be here (early)
+    \Fruitcake\Cors\HandleCors::class,  // <-- MUST be here (early)
     \App\Http\Middleware\TrustProxies::class,
     \App\Http\Middleware\CheckForMaintenanceMode::class,
     \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,
