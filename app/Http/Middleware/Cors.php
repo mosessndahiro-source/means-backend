@@ -15,7 +15,7 @@ class Cors
         $response->headers->set('Access-Control-Allow-Headers', 'Origin, Content-Type, Accept, Authorization, X-Request-With, X-XSRF-TOKEN');
 
         // Explicitly handle OPTIONS preflight
-        if ($request->isMethod('options')) {
+        if ($request->isMethod('OPTIONS')) {  
             $response->setStatusCode(200);
             $response->setContent('');
         }
