@@ -1,6 +1,10 @@
 <?php
 
 use Illuminate\Http\Request;
+use App\Http\Controllers\UserFlowController;
+
+Route::post('/check-user', [UserFlowController::class, 'checkUser']);
+Route::post('/register', [UserFlowController::class, 'register']);
 
 /*
 |--------------------------------------------------------------------------
