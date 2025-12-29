@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use App\Models\User;
 use Illuminate\Support\Str;
+use Kreait\Firebase\Factory;
 
 class UserFlowController extends Controller
 {
@@ -54,23 +55,38 @@ class UserFlowController extends Controller
 public function login(Request $request)
 {
     $request->validate([
-        'mobile_number' => 'required'
+        'token' => 'required|string'
     ]);
 
-    $user = User::where('mobile_number', $request->mobile_number)->first();
+    try {
+        $factory = (new Factory)
+            ->withServiceAccount(storage_path('firebase/firebase.json'));
 
-    if (!$user) {
+        $auth = $factory->createAuth();
+        $verifiedIdToken = $auth->verifyIdToken($request->token);
+
+        $phone = $verifiedIdToken->claims()->get('phone_number');
+
+        if (!$phone) {
+            return response()->json(['message' => 'Phone number missing'], 400);
+        }
+
+        $user = User::where('mobile_number', $phone)->first();
+
+        if (!$user) {
+            return response()->json([
+                'message' => 'User not registered'
+            ], 404);
+        }
+
         return response()->json([
-            'message' => 'User not found'
-        ], 404);
+            'user' => $user
+        ], 200);
+
+    } catch (\Exception $e) {
+        return response()->json([
+            'message' => 'Invalid Firebase token'
+        ], 401);
     }
-
-    // optional: create token if you use Sanctum/Passport
-    // $token = $user->createToken('mobile')->accessToken;
-
-    return response()->json([
-        'user' => $user,
-        // 'token' => $token
-    ], 200);
 }
 }
