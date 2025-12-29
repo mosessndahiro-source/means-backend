@@ -11,46 +11,45 @@ class UserFlowController extends Controller
     /**
      * Step 1: Check if user exists by mobile number
      */
-    public function checkUser(Request $request)
-    {
-        $request->validate([
-            'mobile_number' => 'required'
-        ]);
-
-        $user = User::where('mobile_number', $request->mobile_number)->first();
-
-        return response()->json([
-            'exists' => $user ? true : false,
-            'user' => $user
-        ], 200);
+   public function checkUser(Request $request)
+{
+    if (!$request->mobile_number) {
+        return response()->json(['exists' => false], 200);
     }
+
+    $exists = User::where('mobile_number', $request->mobile_number)->exists();
+
+    return response()->json([
+        'exists' => $exists
+    ], 200);
+}
+
 
     /**
      * Step 2: Register user (NO PASSWORD REQUIRED)
      */
-    public function register(Request $request)
-    {
-        $request->validate([
-            'name' => 'required|string',
-            'email' => 'required|email|unique:users',
-            'mobile_number' => 'required|unique:users',
-            'role' => 'required'
-        ]);
+   public function register(Request $request)
+{
+    $request->validate([
+        'name' => 'required|string',
+        'email' => 'required|email',
+        'mobile_number' => 'required'
+    ]);
 
-        $user = User::create([
-            'name' => $request->name,
-            'email' => $request->email,
-            'mobile_number' => $request->mobile_number,
-            'role' => $request->role,
-            'image_url' => $request->image_url ?? null,
+    $user = User::create([
+        'name' => $request->name,
+        'email' => $request->email,
+        'mobile_number' => $request->mobile_number,
+        'password' => Hash::make($request->password ?? 'otp-user'),
+        'mobile_verified' => 0,
+        'is_verified' => 0,
+        'active' => 1,
+        'language' => 'en'
+    ]);
 
-            // password is system-generated (OTP-based auth)
-            'password' => Hash::make('otp-user'),
-        ]);
+    return response()->json([
+        'user' => $user
+    ], 201);
+}
 
-        return response()->json([
-            'success' => true,
-            'user' => $user
-        ], 201);
-    }
 }
