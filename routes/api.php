@@ -5,6 +5,7 @@ use App\Http\Controllers\UserFlowController;
 
 Route::post('/check-user', [UserFlowController::class, 'checkUser']);
 Route::post('/register', [UserFlowController::class, 'register']);
+Route::post('/login', [UserFlowController::class, 'login']);
 
 /*
 |--------------------------------------------------------------------------

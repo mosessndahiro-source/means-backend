@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use App\Models\User;
+use Illuminate\Support\Str;
 
 class UserFlowController extends Controller
 {
@@ -50,4 +51,26 @@ class UserFlowController extends Controller
             'user' => $user
         ], 201);
     }
+public function login(Request $request)
+{
+    $request->validate([
+        'mobile_number' => 'required'
+    ]);
+
+    $user = User::where('mobile_number', $request->mobile_number)->first();
+
+    if (!$user) {
+        return response()->json([
+            'message' => 'User not found'
+        ], 404);
+    }
+
+    // optional: create token if you use Sanctum/Passport
+    // $token = $user->createToken('mobile')->accessToken;
+
+    return response()->json([
+        'user' => $user,
+        // 'token' => $token
+    ], 200);
+}
 }
