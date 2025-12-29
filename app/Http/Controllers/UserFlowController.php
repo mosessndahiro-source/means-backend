@@ -5,38 +5,25 @@ namespace App\Http\Controllers;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
-use Illuminate\Support\Str;
+
 
 class UserFlowController extends Controller
 {
     /**
      * Step 1: Check if user exists by mobile number
      */
-   public function register(Request $request)
+   public function checkUser(Request $request)
 {
-    $request->validate([
-        'name' => 'required|string',
-        'mobile_number' => 'required|unique:users,mobile_number',
-        'email' => 'nullable|email'
-    ]);
+    if (!$request->mobile_number) {
+        return response()->json(['exists' => false], 200);
+    }
 
-    $user = User::create([
-        'name' => $request->name,
-        'email' => $request->email,
-        'mobile_number' => $request->mobile_number,
-        'password' => Hash::make(Str::random(10)),
-        'mobile_verified' => 0,
-        'is_verified' => 0,
-        'active' => 1,
-        'language' => 'en'
-    ]);
+    $exists = User::where('mobile_number', $request->mobile_number)->exists();
 
     return response()->json([
-        'user' => $user,
-        'registered' => true
-    ], 201);
+        'exists' => $exists
+    ], 200);
 }
-
 
 
     /**
